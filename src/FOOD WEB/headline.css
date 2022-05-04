@@ -1,0 +1,9 @@
+.headline{
+    margin: 20px 50px 80px 100px;
+    width: 1060px;
+}
+.product{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 100px 20px 100px;
+}

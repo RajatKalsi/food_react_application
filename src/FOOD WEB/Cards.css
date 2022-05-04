@@ -1,0 +1,60 @@
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 85px;
+    
+}
+h3{
+    
+    position: relative;
+    left: -55px;
+    top: 0px;
+}
+h5{
+    position: relative;
+    left: 6px;
+}
+#chase{
+    position: relative;
+    left: 110px;
+    width: 80px;
+    bottom: 10px;
+    top: 3px;
+}
+.card1{
+    opacity: 0.8;
+    border-radius: 8px;
+    height: 370px;
+}
+.card1:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ opacity: 1;
+}
+.card2{
+    opacity: 0.8;
+    border-radius: 8px;
+}
+.card2:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ opacity: 1;
+}
+.card3{
+    opacity: 0.8;
+    border-radius: 8px;
+}
+.card3:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ opacity: 1;
+}
+#text1{
+    
+    position: relative;
+    margin-left: 100px;
+}
+
+#text2{
+    
+    position: relative;
+    margin-left: 85px;
+}
+

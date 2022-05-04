@@ -1,0 +1,155 @@
+.middle{
+    display:flex;
+    
+}
+
+.middle1{
+    background-color: blue;
+    color: white;
+    height: 320px;
+    width: 622px;
+    margin-left: 2px;
+    margin-top: 2px;
+   
+}
+.middle2{
+    height: 320px;
+    background-color: yellow;
+    width: 624px;
+    margin-top: 2px;
+    /* margin-right: 5px; */
+    opacity: 0.5;
+}
+.fooditem{
+    background-color: #fff;
+    height: 135px;
+    margin: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.item1{
+    /* background-color:green; */
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+.item2{
+    /* background-color:green; */
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+.item3{
+    /* background-color:green; */
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+.item4{
+    /* background-color:green; */
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+.middle2:hover{
+    opacity: 0.9;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#itemwithbutton1{
+    
+    margin: 3px 8px 3px 24px;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid white;
+    box-shadow: 10px  10px solid blue;
+    
+}
+#itemwithbutton2{
+    
+    margin: 3px 8px 3px 24px;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid white;
+    box-shadow: 10px  10px solid blue;
+    
+}
+#itemwithbutton3{
+    
+    margin: 0px 8px 3px 24px;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid white;
+    box-shadow: 10px  10px solid blue;
+    
+}
+#itemwithbutton4{
+    
+    margin: 0px 8px 3px 24px;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid white;
+    box-shadow: 10px  10px solid blue;
+    
+}
+.animate{
+    color: red;
+}
+.foodanimate{
+    background-color: #fff;
+    margin: 0px 20px 0px 20px;
+    /* position: relative; */
+    overflow: hidden;
+
+}
+.animate{
+    position: relative;
+    animation: moving 13s infinite;
+    /* animation-delay: 19s; */
+}
+@keyframes moving{
+    0%{
+        right: -390px;
+        color: none;
+    }
+    100%{
+        right: 520px;
+    }
+}
+/* .item{ */
+    /* display:block;
+    
+    justify-content: center;
+} */

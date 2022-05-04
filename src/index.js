@@ -3,11 +3,32 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from './FOOD WEB/header';
+import Middle from './FOOD WEB/middle';
+import Cards from './FOOD WEB/Cards';
+import Headline from './FOOD WEB/headline';
+import Footer from './FOOD WEB/footer';
+import Copy from './FOOD WEB/copy';
+import Nav from './Nav';
+import store from './store';
+import { Provider } from 'react-redux';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+  <>
+  <Provider store={store}>
+    <Header/>
+    <Nav/>
     <App />
+    <Middle/>
+    <Headline/>
+    <Cards/>
+    <Footer/>
+    <Copy/>
+    </Provider>
+    </>
   </React.StrictMode>
 );
 

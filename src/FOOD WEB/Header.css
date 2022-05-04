@@ -1,0 +1,30 @@
+.header{
+    
+    background-color: black;
+    color: white;
+    height: 120px;
+    font-family: 'Oswald', sans-serif;
+    opacity: 0.8;
+
+    
+
+    /* font-family: 'Roboto Condensed', sans-serif; */
+
+    
+    
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header:hover{
+    opacity: 1;
+}
+
